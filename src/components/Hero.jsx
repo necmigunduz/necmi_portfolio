@@ -1,9 +1,21 @@
 import React from 'react'
+import Profile from '../assets/necmi.jpg'
 
-const Hero = () => {
+export default function Hero() {
   return (
-    <div>Hero</div>
+    <div className="flex flex-col h-full justify-between items-center text-center">
+      <img src={Profile} alt="profile photo" width={300} className='rounded-full' />
+      <div>
+        <h1 className="text-3xl font-extrabold">Necmi GUNDUZ</h1>
+        <p className="mt-2 text-lg">Economist & Software Developer</p>
+        <p className="mt-1 text-lg">Economics Tutor</p>
+        <p className="mt-4 text-sm text-gray-600">Remote or Ankara, Türkiye</p>
+        <p className="text-sm text-gray-600">necmigunduz@gmail.com</p>
+        <p className="text-sm text-gray-600">+90 (507) 694 9863</p>
+      </div>
+      <div className="mt-6">
+        <a className="inline-block px-4 py-2 bg-black text-white rounded" href="#contact">Contact</a>
+      </div>
+    </div>
   )
 }
-
-export default Hero

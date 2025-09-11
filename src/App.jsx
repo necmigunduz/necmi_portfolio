@@ -11,7 +11,7 @@ export default function App() {
   return (
     <div className="min-h-screen flex bg-gray-50 text-gray-900">
       {/* Left sidebar hero */}
-      <aside className="w-1/3 lg:w-1/4 bg-white shadow-lg p-6 fixed h-full">
+      <aside className="w-1/3 lg:w-1/5  md:w-1/4 bg-slate-300 shadow-lg p-6 fixed h-full">
         <Hero />
       </aside>
 
