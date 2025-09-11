@@ -5,7 +5,8 @@ import Experience from './components/Experience'
 import Education from './components/Education'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
-
+import Footer from './components/Footer'
+import Header from './components/Header'
 
 export default function App() {
   return (
@@ -14,16 +15,18 @@ export default function App() {
       <aside className="w-1/3 lg:w-1/5  md:w-1/4 bg-slate-300 shadow-lg p-6 fixed h-full">
         <Hero />
       </aside>
-
-
+    
+        
+    
       {/* Main content */}
-      <main className="ml-[33%] lg:ml-[25%] w-2/3 lg:w-3/4 px-6 py-12">
+      <main className="ml-[33%] lg:ml-[25%] w-3/5 lg:w-2/5 px-6 py-12">
+        <Header />
         <About />
         <Experience />
         <Education />
         <Skills />
         <Contact />
-        <footer className="mt-12 text-center text-sm text-gray-600">© {new Date().getFullYear()} Necmi Gunduz</footer>
+        <Footer />
       </main>
     </div>
   )

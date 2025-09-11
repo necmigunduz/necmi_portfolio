@@ -14,7 +14,7 @@ export default function Hero() {
         <p className="text-sm text-gray-600">+90 (507) 694 9863</p>
       </div>
       <div className="mt-6">
-        <a className="inline-block px-4 py-2 bg-black text-white rounded" href="#contact">Contact</a>
+        <a className="inline-block px-4 py-2 bg-black text-white rounded" href="#contact">Book an appointment</a>
       </div>
     </div>
   )
