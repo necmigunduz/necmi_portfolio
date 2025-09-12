@@ -1,8 +1,9 @@
 import React from 'react'
 const degrees = [
   { school: 'Istanbul University', degree: 'Bachelor of Economics', years: '1996-2000' },
+  { school: 'Pamukkale University', degree: 'Master of Economics', years: '2001-2005' },
   { school: 'Florida International University', degree: 'Master of Economics', years: '2005-2008' },
-  { school: 'Pamukkale University', degree: 'Master of Economics', years: '2001-2005' }
+  { school: 'Microverse Remote Coding School', degree: 'Fullstack Software Development', years: '2020-2021' }
 ]
 export default function Education() {
   return (

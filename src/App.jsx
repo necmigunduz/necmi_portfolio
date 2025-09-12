@@ -7,6 +7,7 @@ import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Header from './components/Header'
+import StillLearning from './components/StillLearning'
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
         <Experience />
         <Education />
         <Skills />
+        <StillLearning />
         <Contact />
         <Footer />
       </main>

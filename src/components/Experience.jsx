@@ -1,8 +1,12 @@
 import React from 'react'
 const items = [
   { title: 'Software Developer', date: 'May 2020 - Current', org: 'Microverse, Kingstone Labs, Smartup Networks' },
+  { title: 'AP Economics Tutor', date: 'Nov 2024 - Current', org: 'Truwayist' },
+  { title: 'Economics Tutor', date: 'Nov 2024 - Current', org: 'Saksı' },
   { title: 'Regional Development Expert', date: 'May 2010 - May 2016', org: 'Thrace Regional Development Agency' },
-  { title: 'Curriculum Development Specialist & Consultant', date: 'Sep 2008 - May 2010', org: 'ADFIMI' }
+  { title: 'Curriculum Development Specialist & Consultant', date: 'Sep 2008 - May 2010', org: 'ADFIMI' },
+  { title: 'Economics Instructor', date: 'Sep 2008 - May 2011', org: 'Kavram Academy' },
+  { title: 'Teaching Assistant', date: 'Sep 2005 - Aug 2008', org: 'Florida International University' }
 ]
 export default function Experience() {
   return (

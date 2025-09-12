@@ -1,5 +1,5 @@
 import React from 'react'
-const skills = ['JavaScript', 'React', 'NextJS', 'NodeJS', 'Express', 'TailwindCSS', 'Bootstrap', 'MongoDB', 'PostgreSQL']
+const skills = ['Microeconomics', 'Macroeconomics', 'Statistics', 'Econometrics', 'Economic Development', 'JavaScript', 'React', 'NextJS', 'NodeJS', 'Express', 'TailwindCSS', 'Bootstrap', 'MongoDB', 'PostgreSQL']
 export default function Skills() {
   return (
     <section className="mb-10" id="skills">
