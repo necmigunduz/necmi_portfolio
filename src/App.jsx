@@ -16,19 +16,21 @@ export default function App() {
       <aside className="w-1/3 lg:w-1/5  md:w-1/4 bg-slate-300 shadow-lg p-6 fixed h-full">
         <Hero />
       </aside>
-    
-        
-    
+
+
+
       {/* Main content */}
-      <main className="ml-[33%] lg:ml-[25%] w-3/5 lg:w-2/5 px-6 py-12">
+      <main className="ml-[33%] lg:ml-[25%] w-3/5 lg:w-2/5 px-6 py-12 flex flex-col gap-6">
         <Header />
         <About />
         <Experience />
         <Education />
         <Skills />
         <StillLearning />
-        <Contact />
-        <Footer />
+        <div>
+          <Contact />
+          <Footer />
+        </div>
       </main>
     </div>
   )
