@@ -10,7 +10,7 @@ export default function Contact() {
           href="https://meetings-eu1.hubspot.com/necmi-gunduz"
         >
           {" "}
-          Click here toBook an Appointment{" "}
+          Click here to Book an Appointment{" "}
         </a>
       </h2>
       <p>
