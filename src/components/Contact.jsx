@@ -11,7 +11,7 @@ export default function Contact() {
           href="https://meetings-eu1.hubspot.com/necmi-gunduz"
         >  Book an Appointment </a>
       </h2>
-
+      <a href="mailto:gund.necmi@gmail.com">gund.necmi@gmail.com</a>
       <p className="text-sm mb-4 md:mb-0">
         © {new Date().getFullYear()} Necmi Gündüz. All rights reserved.
       </p>
